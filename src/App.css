@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #fff8ed;
 }
 
 .App-logo {
@@ -8,8 +9,11 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
+  background-color: #292540;
+  font-family: impact;
+  font-size: 24px;
+  height: 120px;
+  width:100%;
   padding: 20px;
   color: white;
 }
@@ -18,7 +22,16 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+#foodChart{
+  background-color: blue;
+}
+
+#table {
+  font-size: 12px;
+  font-family: monaco;
+  width: 90%;
+}
+
+#padding {
+  padding-bottom: 100px;
 }
